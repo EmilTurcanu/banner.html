@@ -1,0 +1,100 @@
+body {
+    font-family: 'Martian Mono', monospace;
+    background-color: #222;
+}
+
+.banner {
+    border: 0.1px solid transparent;
+    height: 100vh;
+}
+
+.banner h1 {
+    margin-top: 40vh;
+    font-size: 7vh;
+    font-weight: 800;
+    color: white;
+}
+
+.banner h2 {
+    color: gray;
+}
+.banner span {
+    color: orange;
+}
+
+.banner h1,
+.banner h2,
+.banner p {
+    margin-left: 20vw;
+    background-image: radial-gradient(transparent);
+    background-repeat: no-repeat;
+}
+
+.banner h1,
+.banner h2,
+.banner p::before {
+    margin-left: 20vw;
+    background-image: radial-gradient(gray);
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 10vw;
+}
+
+.banner .pictures {
+    border: 1px solid green;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.banner .pictures img:nth-child(1) {
+    width: 23vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(2) {
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(3) {
+    width: 32vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(4) {
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(5) {
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(6) {
+    width: 50vw;
+    height: 45vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(7) {
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.banner .pictures img:nth-child(8) {
+    width: 50vw;
+    height: 40vh;
+    object-fit: cover;
+}
